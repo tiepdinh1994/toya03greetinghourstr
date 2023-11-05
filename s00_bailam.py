@@ -60,7 +60,7 @@ def greeting(hour_str):
     return 'Good morning!'
   if 12 <= h <= 17:
     return 'Good afternoon!'
-  if 18 <= h <= 23:
+  else:
     return 'Good evening!'
 
 
